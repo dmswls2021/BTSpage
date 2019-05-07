@@ -1,17 +1,28 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
 <head>
-<meta charset="UTF-8">
-<title>BTS official homepage</title>
 <style>
-	body{
-		background: #ff89a9;
+	body.home{
+		background-image: url(img/mainbg.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+		position: fixed;
+		top: 0;
+		bottom: 60;
+	}
+	div.home_wrap{
+		position: fixed;
+		top: 0;
+		background-image: url(img/mainbg_o.png);
+		background-repeat:no-repeat;
+		background-size: 120% auto;
+		background-position: center;
 	}
 </style>
 </head>
-<body>
-	home.jsp
+<body class="home">
+	<div class="home_wrap">
+		
+	</div>
 </body>
-</html>
