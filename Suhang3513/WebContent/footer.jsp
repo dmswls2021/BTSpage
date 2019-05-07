@@ -68,16 +68,40 @@
     	margin-inline-end: 0px;
     	padding-inline-start: 40px;
 	}
+	.twitter {
+		background-image: url(img/twitter.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.facebook {
+		background-image: url(img/facebook.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.youtube {
+		background-image: url(img/youtube.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.instagram {
+		background-image: url(img/twitter.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
 </style>
 </head>
 <footer>
 	<div class="footer_wrap valign">
 		<div class="social">
 			<ul>
-				<li><a></a></li>
-				<li><a></a></li>
-				<li><a></a></li>
-				<li><a></a></li>
+				<li><a href="https://twitter.com/bts_twt" target="_blank" class="twitter"></a></li>
+				<li><a href="https://www.facebook.com/bangtan.official/" target="_blank" class="facebook"></a></li>
+				<li><a href="https://www.youtube.com/user/BANGTANTV" target="_blank" class="youtube"></a></li>
+				<li><a href="https://www.instagram.com/bts.bighitofficial/" target="_blank"></a></li>
 			</ul>
 		</div>
 		<div class="copyright">
