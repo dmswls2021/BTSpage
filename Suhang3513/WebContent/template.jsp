@@ -21,13 +21,21 @@
 </head>
 <body>
 <div class="wrapper">
-	<table style="display: none;">
+	<table>
 		<tr>
-			<jsp:include page="top.jsp" flush="false"/>
-			<jsp:include page="<%= contentPage %>" flush="false"/>
+			<td>
+				<jsp:include page="top.jsp" flush="false"/>
+			</td>
 		</tr>
 		<tr>
-			<jsp:include page="footer.jsp" flush="false"/>
+			<td>
+				<jsp:include page="<%= contentPage %>" flush="false"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<jsp:include page="footer.jsp" flush="false"/>
+			</td>
 		</tr>
 	</table>
 </div>
