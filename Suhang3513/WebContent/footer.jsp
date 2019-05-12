@@ -53,11 +53,12 @@
     background-color: rgba(0, 0, 0, 0.2);
 	}
 	.copyright{
+		position: relative;
 		font-size: 10px;
 		font-weight: bold;
 		line-height: 10px;
 		color: #6b6b6b;
-    	float: right;
+		float: right;
     	text-transform: uppercase;
 	}
 	ul li{
@@ -74,8 +75,20 @@
     	background-position: center;
     	background-size: 100% auto;
 	}
+	.twitter:hover {
+		background-image: url(img/twitter_h.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
 	.facebook {
 		background-image: url(img/facebook.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.facebook:hover {
+		background-image: url(img/facebook_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
@@ -86,8 +99,20 @@
     	background-position: center;
     	background-size: 100% auto;
 	}
-	.instagram {
-		background-image: url(img/twitter.png);
+	.youtube:hover {
+		background-image: url(img/youtube_h.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.insta {
+		background-image: url(img/insta.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.insta:hover {
+		background-image: url(img/insta_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
@@ -101,7 +126,7 @@
 				<li><a href="https://twitter.com/bts_twt" target="_blank" class="twitter"></a></li>
 				<li><a href="https://www.facebook.com/bangtan.official/" target="_blank" class="facebook"></a></li>
 				<li><a href="https://www.youtube.com/user/BANGTANTV" target="_blank" class="youtube"></a></li>
-				<li><a href="https://www.instagram.com/bts.bighitofficial/" target="_blank"></a></li>
+				<li><a href="https://www.instagram.com/bts.bighitofficial/" target="_blank" class="insta"></a></li>
 			</ul>
 		</div>
 		<div class="copyright">
