@@ -8,12 +8,13 @@
 		top: 0;
 		left: 0;
 		right: 0;
+		z-index: 1000;
 		}
-		button{
-			cursor: pointer;
-			display: block;
-			border: none;
-			box-shadow: none;
+		a{
+			text-decoration: none;
+			font-family: HangeulNuri-Bold;
+			font-size: 13pt;
+			color: #ccc;
 		}
 		.logo{
 			position: relative;
@@ -29,9 +30,6 @@
 			left: -30px;
 		}
 		nav ul li{
-			font-family: HangeulNuri-Bold;
-			font-size: 13pt;
-			color: #ccc;
 			margin-left: 50px;
 			margin-right: 50px;
 			display: inline;
@@ -48,10 +46,10 @@
 	</div>
 	<nav>
 		<ul>
-			<li>PROFILE</li>
-			<li>DISCOGRAPHY</li>
-			<li>SCHEDULE</li>
-			<li>TOUR</li>
+			<li><a href="profile.jsp">PROFILE</a></li>
+			<li><a href="disco.jsp">DISCOGRAPHY</a></li>
+			<li><a href="schedule.jsp">SCHEDULE</a></li>
+			<li><a href="tour.jsp">TOUR</a></li>
 		</ul>
 	</nav>
 </header>
