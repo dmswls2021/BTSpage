@@ -104,12 +104,14 @@
 	<table class="disco">
 		<tr>
 			<td>
-				<div class="pic">
-					<img src="img/disco/persona.jpg" class="intro">
-					<span class="pic-caption bottom-to-top">
-						<p>THE 6TH MINI ALBUM</p><h3>MAP OF THE SOUL : PERSONA</h3>
-					</span>
-				</div>
+				<a href="persona.jsp">
+					<div class="pic">
+						<img src="img/disco/persona.jpg" class="intro">
+						<span class="pic-caption bottom-to-top">
+							<p>THE 6TH MINI ALBUM</p><h3>MAP OF THE SOUL : PERSONA</h3>
+						</span>
+					</div>
+				</a>
 			</td>
 			<td>
 				<div class="pic">

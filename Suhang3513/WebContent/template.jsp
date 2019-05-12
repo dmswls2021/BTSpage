@@ -20,6 +20,7 @@
 			font-style: normal; 
 		}
 		@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
+		@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 	</style>
 </head>
 <body>
