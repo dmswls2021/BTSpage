@@ -70,49 +70,49 @@
     	padding-inline-start: 40px;
 	}
 	.twitter {
-		background-image: url(img/twitter.png);
+		background-image: url(img/footer/twitter.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.twitter:hover {
-		background-image: url(img/twitter_h.png);
+		background-image: url(img/footer/twitter_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.facebook {
-		background-image: url(img/facebook.png);
+		background-image: url(img/footer/facebook.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.facebook:hover {
-		background-image: url(img/facebook_h.png);
+		background-image: url(img/footer/facebook_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.youtube {
-		background-image: url(img/youtube.png);
+		background-image: url(img/footer/youtube.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.youtube:hover {
-		background-image: url(img/youtube_h.png);
+		background-image: url(img/footer/youtube_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.instagram {
-		background-image: url(img/twitter.png);
+		background-image: url(img/footer/twitter.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
 	.instagram:hover {
-		background-image: url(img/twitter_h.png);
+		background-image: url(img/footer/twitter_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;

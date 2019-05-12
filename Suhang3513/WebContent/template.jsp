@@ -7,9 +7,11 @@
 %>
 <head>
 	<style>
-		table{
+		.templ{
 			width: 100%;
 			height: 100%;
+			overflow: auto;
+			border: none;
 		}
 		@font-face { 
 			font-family: 'HangeulNuri-Bold'; 
@@ -17,19 +19,18 @@
 			font-weight: normal; 
 			font-style: normal; 
 		}
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
 	</style>
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 <body>
-<div class="wrapper">
-	<table>
+	<table class="templ">
 		<tr>
 			<td>
 				<jsp:include page="top.jsp" flush="false"/>
 			</td>
 		</tr>
 		<tr>
-			<td>
+			<td width="100%">
 				<jsp:include page="<%= contentPage %>" flush="false"/>
 			</td>
 		</tr>
@@ -39,5 +40,4 @@
 			</td>
 		</tr>
 	</table>
-</div>
 </body>

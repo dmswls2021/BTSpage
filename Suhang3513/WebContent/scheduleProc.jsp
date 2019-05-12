@@ -13,55 +13,52 @@
 	int yo = dSet.get(Calendar.DAY_OF_WEEK);
 	int last_day = tDay.getActualMaximum(Calendar.DATE);
 %>
-<!DOCTYPE html>
-<html>
 <head>
-<meta charset="UTF-8">
-<title>BTS official homepage</title>
 	<style>
-		body {
-		  font-family: Tahoma;
-		}
-		header {
+		.schedule {
+		  font-family: HangeulNuri-Bold;
 		  text-align: center;
 		}
-		table {
-		  width: 100%;
-		  border: 1px solid #ccc;
+		.schedule table {
+			position: absolute;
+		  	width: 95%;
+		  	border: 0px;
 		}
-		table tr {
+		.schedule table tr {
 		  padding: 0;
 		  margin: 0;
 		  width: 100%;
 		}
-		table td {
+		.schedule table td {
 		  float: left;
-		  width: 14.342%;
+		  width: 14.285%;
 		  padding: 5px;
 		  box-sizing: border-box;
 		  margin-right: -1px;
 		  margin-bottom: -1px;
 		}
-		table tr.weekdays {
+		.schedule table tr.weekdays {
 		  height: 40px;
 		  background : hsla(120, 100%, 0%, 0.3);
 		}
-		table tr.weekdays td {
+		.schedule table tr.weekdays td {
 		  text-align: center;
 		  text-transform: uppercase;
 		  line-height: 20px;
 		  border: none !important;
 		  padding: 10px 6px;
-		  color: #fff;
+		  color: #ccc;
 		  font-size: 13px;
 		}
-		table .days td {
+		.schedule table .days td {
 		  height: 130px;
+		  color: white;
+		  text-align: right;
 		}
-		table .days td:hover {
+		.schedule table .days td:hover {
 		  background: #d3d3d3;
 		}
-		table .date {
+		.schedule table .date {
 		  text-align: center;
 		  margin-bottom: 5px;
 		  padding: 4px;
@@ -71,7 +68,7 @@
 		  border-radius: 50%;
 		  float: right;
 		}
-		table .event {
+		.schedule table .event {
 		  clear: both;
 		  display: block;
 		  font-size: 13px;
@@ -82,14 +79,19 @@
 		  color: #009aaf;
 		  text-decoration: none;
 		}
-		talbe .event-desc {
+		.schedule talbe .event-desc {
 		  color: #666;
 		  margin: 3px 0 7px 0;
 		  text-decoration: none;
 		}
 	</style>
 </head>
- <body>
+ <body bgcolor="black">
+ <div class="schedule">
+ <section>
+ 	<img src="img/schedule-kv.jpg">
+ </section>
+ <section style="margin-left: 25px">
  	<table>
 		<tr>
 			<th align="center"colspan="7"><%=y%>년 <%=(m+1)%>월</th>
@@ -115,6 +117,8 @@
 			<td></td>
 			<%} %>
 		</tr>
-	</table>  
+	</table>
+</section>
+</div>
  </body>
 </html>

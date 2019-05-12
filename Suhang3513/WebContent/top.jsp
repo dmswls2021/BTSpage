@@ -9,31 +9,31 @@
 		left: 0;
 		right: 0;
 		z-index: 1000;
-		}
-		a{
-			text-decoration: none;
-			font-family: HangeulNuri-Bold;
-			font-size: 13pt;
-			color: #ccc;
-		}
-		.logo{
-			position: relative;
-			top: 18px;
-			z-index: 2;
-		}
-		nav{
-			margin-top: 30px; 
-		}
-		nav ul{
-			position: relative;
-			text-align: center;
-			left: -30px;
-		}
-		nav ul li{
-			margin-left: 50px;
-			margin-right: 50px;
-			display: inline;
-		}
+	}
+	a{
+		text-decoration: none;
+		font-family: HangeulNuri-Bold;
+		font-size: 13pt;
+		color: #ccc;
+	}
+	.logo{
+		position: relative;
+		top: 18px;
+		z-index: 2;
+	}
+	nav{
+		margin-top: 30px; 
+	}
+	nav ul{
+		position: relative;
+		text-align: center;
+		left: -30px;
+	}
+	nav ul li{
+		margin-left: 50px;
+		margin-right: 50px;
+		display: inline;
+	}
 		
 </style>
 </head>
@@ -49,7 +49,6 @@
 			<li><a href="profile.jsp">PROFILE</a></li>
 			<li><a href="disco.jsp">DISCOGRAPHY</a></li>
 			<li><a href="schedule.jsp">SCHEDULE</a></li>
-			<li><a href="tour.jsp">TOUR</a></li>
 		</ul>
 	</nav>
 </header>
