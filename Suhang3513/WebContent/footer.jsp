@@ -53,12 +53,20 @@
     background-color: rgba(0, 0, 0, 0.2);
 	}
 	.copyright{
+<<<<<<< HEAD
 		position: relative;
+=======
+		position: fixed;
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
 		font-size: 10px;
 		font-weight: bold;
 		line-height: 10px;
 		color: #6b6b6b;
+<<<<<<< HEAD
 		float: right;
+=======
+    	right: -1000px;
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
     	text-transform: uppercase;
 	}
 	ul li{
@@ -70,7 +78,13 @@
     	padding-inline-start: 40px;
 	}
 	.twitter {
-		background-image: url(img/twitter.png);
+		background-image: url(img/footer/twitter.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.twitter:hover {
+		background-image: url(img/footer/twitter_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
@@ -82,7 +96,13 @@
     	background-size: 100% auto;
 	}
 	.facebook {
-		background-image: url(img/facebook.png);
+		background-image: url(img/footer/facebook.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.facebook:hover {
+		background-image: url(img/footer/facebook_h.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
@@ -94,11 +114,18 @@
     	background-size: 100% auto;
 	}
 	.youtube {
-		background-image: url(img/youtube.png);
+		background-image: url(img/footer/youtube.png);
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
 	}
+	.youtube:hover {
+		background-image: url(img/footer/youtube_h.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+<<<<<<< HEAD
 	.youtube:hover {
 		background-image: url(img/youtube_h.png);
 		background-repeat: no-repeat;
@@ -113,6 +140,16 @@
 	}
 	.insta:hover {
 		background-image: url(img/insta_h.png);
+=======
+	.instagram {
+		background-image: url(img/footer/twitter.png);
+		background-repeat: no-repeat;
+    	background-position: center;
+    	background-size: 100% auto;
+	}
+	.instagram:hover {
+		background-image: url(img/footer/twitter_h.png);
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
 		background-repeat: no-repeat;
     	background-position: center;
     	background-size: 100% auto;
@@ -126,7 +163,11 @@
 				<li><a href="https://twitter.com/bts_twt" target="_blank" class="twitter"></a></li>
 				<li><a href="https://www.facebook.com/bangtan.official/" target="_blank" class="facebook"></a></li>
 				<li><a href="https://www.youtube.com/user/BANGTANTV" target="_blank" class="youtube"></a></li>
+<<<<<<< HEAD
 				<li><a href="https://www.instagram.com/bts.bighitofficial/" target="_blank" class="insta"></a></li>
+=======
+				<li><a href="https://www.instagram.com/bts.bighitofficial/" target="_blank" class="instagram"></a></li>
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
 			</ul>
 		</div>
 		<div class="copyright">

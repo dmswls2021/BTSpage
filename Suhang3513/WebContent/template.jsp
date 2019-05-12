@@ -7,22 +7,38 @@
 %>
 <head>
 	<style>
-		table{
+		.templ{
 			width: 100%;
 			height: 100%;
+			overflow: auto;
+			border: none;
 		}
+		@font-face { 
+			font-family: 'HangeulNuri-Bold'; 
+			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff'); 
+			font-weight: normal; 
+			font-style: normal; 
+		}
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald');
+		@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 	</style>
 </head>
 <body>
-<div class="wrapper">
-	<table style="display: none;">
+	<table class="templ">
 		<tr>
-			<jsp:include page="top.jsp" flush="false"/>
-			<jsp:include page="<%= contentPage %>" flush="false"/>
+			<td>
+				<jsp:include page="top.jsp" flush="false"/>
+			</td>
 		</tr>
 		<tr>
-			<jsp:include page="footer.jsp" flush="false"/>
+			<td width="100%">
+				<jsp:include page="<%= contentPage %>" flush="false"/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<jsp:include page="footer.jsp" flush="false"/>
+			</td>
 		</tr>
 	</table>
-</div>
 </body>

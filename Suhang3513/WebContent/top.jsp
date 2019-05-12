@@ -4,11 +4,11 @@
 <style>
 	header{
 		background: rgba(0, 0, 0, 0.2);
-		height: 63px;
 		position: fixed;
 		top: 0;
 		left: 0;
 		right: 0;
+<<<<<<< HEAD
 		}
 		button{
 			cursor: pointer;
@@ -66,10 +66,40 @@
 			text-decoration: none;
 			color: #3d3d3d;
 		}
+=======
+		z-index: 1000;
+	}
+	a{
+		text-decoration: none;
+		font-family: HangeulNuri-Bold;
+		font-size: 13pt;
+		color: #ccc;
+	}
+	.logo{
+		position: relative;
+		top: 18px;
+		z-index: 2;
+	}
+	nav{
+		margin-top: 30px; 
+	}
+	nav ul{
+		position: relative;
+		text-align: center;
+		left: -30px;
+	}
+	nav ul li{
+		margin-left: 50px;
+		margin-right: 50px;
+		display: inline;
+	}
+		
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
 </style>
 </head>
 <body>
 <header>
+<<<<<<< HEAD
 <div class="logo" align="center">
 	<a href="main.jsp" title="BTS 홈 페이지로 이동">
 		<img src="img/bts.png" alt="BTS 로고입니다.">
@@ -90,5 +120,19 @@
 		</ul>
 	</div>
 </nav>
+=======
+	<div class="logo" align="center">
+		<a href="main.jsp" title="BTS 홈 페이지로 이동">
+			<img src="img/bts.png" alt="BTS 로고입니다.">
+		</a>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="profile.jsp">PROFILE</a></li>
+			<li><a href="disco.jsp">DISCOGRAPHY</a></li>
+			<li><a href="schedule.jsp">SCHEDULE</a></li>
+		</ul>
+	</nav>
+>>>>>>> branch 'master' of https://github.com/dmswls2021/BTSpage.git
 </header>
 </body>
