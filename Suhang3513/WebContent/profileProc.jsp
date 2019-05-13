@@ -6,12 +6,14 @@
     pageEncoding="UTF-8"%>
 <head>
 	<style>
-		.profile{
-			background: #ff8f9f;
-			position: absolute;
+		.profile-table{
+			position: fixed;
 			top: 0;
 			left: 0;
 			right: 0;
+		}
+		.profile{
+			background: #ff8f9f;
 		}
 		.group_img{
 			padding-top: 100px;
@@ -23,7 +25,7 @@
 	</style>
 </head>
 <body>
-<table>
+<table class="profile-table">
 <tr>
 	<td>
 		<div class="profile">
