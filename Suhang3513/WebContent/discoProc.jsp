@@ -6,7 +6,7 @@
 			position: relative;
 			border: none;
 			border-spacing: 18px;
-			margin-left: 195px;
+			margin-left: 20%;
 			margin-top: -100px;
 		}
 		.disco img{

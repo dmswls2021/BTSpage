@@ -22,12 +22,14 @@
 	.persona_img{
 		position: absolute;
 		right: 0;
-		z-index: 1;	
+		z-index: 1;
+		margin-right: 10%;
+		margin-top: 5%;
 	}
 	.persona_font{
 		position: relative;
-		top: 35%;
-		left: 350;
+		margin-top: 20%;
+		margin-left: 22%;
 		font-family: Oswald, bold;
 		font-size: 70pt;
 		color: white;

@@ -1,6 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <head>
+	<script>
+		
+	</script>
 	<style>
 		section {
 		    position: relative;
@@ -8,7 +11,7 @@
 		.persona_bg{
 			background-color: #f77c9b;
 			background-image: url("img/disco/persona/discography-bg.png");
-			background-repeat: no-repeat;
+			background-repeat: repeat-y;
 			background-size: 100% auto;
 			position: relative;
 		}
@@ -45,10 +48,11 @@
     		padding-left: 2px;
     		font-size: 18px;
 		}
+		
 		.contents-title {
 		    margin-bottom: 25px;
 		    margin-top: 0px;
-		    text-align: left;
+		    text-align: center;
 		    position: relative;
 		    font-size: 80px;
 		    line-height: 70px;
@@ -64,8 +68,17 @@
     		line-height: 29px;
     		letter-spacing: -0.06em;
 		}
+		.album-detail .contents-sub {
+		    font-family: Noto Sans KR;
+		    font-size: 16px;
+		    line-height: 18px;
+		    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+		}
 		.contents {
 		    padding-left: 65px;
+		}
+		.contents .contents-title{
+			text-align: left;
 		}
 		.album-detail {
 		    background-position: center top -29px;
@@ -73,37 +86,60 @@
 		    padding: 175px 0 54px;
 		}
 		.box{
-			border-spacing: 10px;
+			position: relative;
+			left: 0;
+			right: 0;
 			width: 100%
 		}
 		.box td{
 			vertical-align: top;
 		}
 		.album-video {
+			position: relative;
 		    max-width: 100%;
-		}
-		.slide-wrap {
-		    background: #ef6c90;
-		}
-		.slide-wrap > ul > li {
-		    display: none;
-		    opacity: 0;
-		    position: absolute;
-		    top: 0;
 		    left: 0;
-		    width: 100%;
+		    right: 0;
 		}
-		.slide-wrap > ul > li iframe {
-		    display: none;
-		    position: absolute;
-		    top: 0;
-		    left: 0;
-		    width: 100%;
-		    height: 100%;
+		.album-video .contents-title{
+			position: relative;
+			margin-bottom: -1%;
 		}
-		.btn-play {
+		.album-detail .contents-sub {
+		    font-family: Noto Sans KR;
+		    font-size: 16px;
+		    line-height: 18px;
+		    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+		}
+		.album-detail .contents-sub {
+		    font-family: Noto Sans KR;
+		    font-size: 16px;
+		    line-height: 18px;
+		    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+		}
+		.nowrap {
+		    white-space: nowrap;
+		}
+		.contents-sub {
+		    font-family: Noto Sans KR;
+		    font-size: 16px;
+		    color: #f0c5cf;
+		    line-height: 18px;
+		    letter-spacing: -0.02em;
+		}
+		.album-detail .album-video .slide-wrap {
 		    position: relative;
-		    background: #000;
+		    background: #ef6c90;
+		    left: 0;
+		    right: 0;
+		}
+		.album-detail .album-video .slide-wrap > ul {
+		    overflow: auto;
+		    list-style: none;
+		    position: relative;
+		    width: 100%;
+		    max-width: 1120px;
+		    margin: 0 auto;
+		    top: -28px;
 		}
 	</style>
 </head>
@@ -150,14 +186,44 @@
 			<td colspan="2" align="center">
 				<h2 class="contents-title">VIDEO</h2>
 				<div class="slide-wrap">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
+					<ul> 
+ 						<li> 
+ 							<div class="contents-obj"> 
+ 								<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" width="1080" height="608" src="https://www.youtube.com/embed/M9Uy0opVF3s?autoplay=0&amp;controls=1&amp;autohide=1&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbts.ibighit.com&amp;widgetid=1"></iframe> 
+ 							</div> 
+ 							<h3 class="contents-sub">COMEBACK TRAILER</h3> 
+ 						</li> 
+ 						<li> 
+ 							<div class="contents-obj"> 
+ 								<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" width="1080" height="608" src="https://www.youtube.com/embed/jrSsNzsi4eQ?autoplay=0&amp;controls=1&amp;autohide=1&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbts.ibighit.com&amp;widgetid=2"></iframe> 
+ 							</div> 
+ 							<h3 class="contents-sub">MV <span style="white-space: nowrap">TEASER</span> 1</h3> 
+ 						</li> 
+ 						<li> 
+ 							<div class="contents-obj"> 
+ 								<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" width="1080" height="608" src="https://www.youtube.com/embed/1zDd-3J1nTg?autoplay=0&amp;controls=1&amp;autohide=1&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbts.ibighit.com&amp;widgetid=3"></iframe> 
+ 							</div> 
+ 							<h3 class="contents-sub">MV <span style="white-space: nowrap">TEASER</span> 2</h3> 
+ 						</li> 
+ 						<li> 
+ 							<div class="contents-obj"> 
+ 								<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" width="1080" height="608" src="https://www.youtube.com/embed/XsX3ATc3FbA?autoplay=0&amp;controls=1&amp;autohide=1&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbts.ibighit.com&amp;widgetid=4"></iframe> 
+ 							</div> 
+ 							<h3 class="contents-sub">'작은 <span style="white-space: nowrap">것들을</span> <span style="white-space: nowrap">위한</span> <span style="white-space: nowrap">시</span> <span style="white-space: nowrap">(Boy</span> <span style="white-space: nowrap">With</span> <span style="white-space: nowrap">Luv)</span> <span style="white-space: nowrap">feat.</span> <span style="white-space: nowrap">Halsey'</span> MV</h3> 
+ 						</li> 
+ 						<li> 
+ 							<div class="contents-obj"> 
+ 								<iframe frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; encrypted-media; gyroscope;" width="1080" height="608" src="https://www.youtube.com/embed/62E_xyj_oDA?autoplay=0&amp;controls=1&amp;autohide=1&amp;wmode=opaque&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fbts.ibighit.com&amp;widgetid=5"></iframe> 
+ 							</div> 
+ 							<h3 class="contents-sub">'작은 <span style="white-space: nowrap">것들을</span> <span style="white-space: nowrap">위한</span> <span style="white-space: nowrap">시</span> <span style="white-space: nowrap">(Boy</span> <span style="white-space: nowrap">With</span> <span style="white-space: nowrap">Luv)</span> <span style="white-space: nowrap">feat.</span> <span style="white-space: nowrap">Halsey'</span> <span style="white-space: nowrap">MV</span> <span class="nowrap">('ARMY <span style="white-space: nowrap">With</span> <span style="white-space: nowrap">Luv'</span> ver.)</span></h3> 
+ 						</li> 
+ 					</ul>
+ 				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				
 			</td>
 		</tr>
 	</table>

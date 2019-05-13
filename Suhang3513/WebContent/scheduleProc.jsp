@@ -39,7 +39,7 @@
 		}
 		.schedule table tr.weekdays {
 		  height: 40px;
-		  background : hsla(120, 100%, 0%, 0.3);
+		  background : rgba(255,255,255,0.3);
 		}
 		.schedule table tr.weekdays td {
 		  text-align: center;

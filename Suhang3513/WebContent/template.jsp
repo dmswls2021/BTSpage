@@ -13,6 +13,18 @@
 			overflow: auto;
 			border: none;
 		}
+		button {
+		    cursor: pointer;
+		    display: block;
+		    border: none;
+		    box-shadow: none;
+		    margin: 0;
+		    padding: 0;
+		    background: transparent;
+		    color: inherit;
+		    font: inherit;
+		    line-height: normal;
+		}
 		@font-face { 
 			font-family: 'HangeulNuri-Bold'; 
 			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff') format('woff'); 
