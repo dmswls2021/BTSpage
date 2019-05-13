@@ -23,13 +23,12 @@
 		position: absolute;
 		right: 0;
 		z-index: 1;
-		margin-right: 10%;
-		margin-top: 5%;
+		vertical-align: middle;
 	}
 	.persona_font{
 		position: relative;
 		margin-top: 20%;
-		margin-left: 22%;
+		margin-right: 30%;
 		font-family: Oswald, bold;
 		font-size: 70pt;
 		color: white;
@@ -39,7 +38,7 @@
 </style>
 </head>
 <body class="home">
-	<div class="home_wrap">
+	<div class="home_wrap" align="center">
 		<div class="persona_img">
 			<img src="img/main_persona.png">
 		</div>
