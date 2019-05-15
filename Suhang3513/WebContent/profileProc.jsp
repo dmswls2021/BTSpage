@@ -54,6 +54,22 @@
 			font-family: Noto Sans KR;
 			color: white;
 		}
+		.member-table p{
+			font-family: Noto Sans KR;
+			font-size: 15pt;
+		}
+		.member-table h3{
+			font-family: Noto Sans KR;
+			font-size: 18pt;
+		}
+		.left{
+			text-align: left;
+			padding-left: 10px;
+		}
+		.right{
+			text-align: right;
+			padding-right: 10px;
+		}
 	</style>
 </head>
 <body bgcolor="#ff8f9f">
@@ -92,7 +108,16 @@
 			<td>
 				<img src="img/profile/member-rm.jpg" width="100%">
 			</td>
-			<td></td>
+			<td>
+				<span class="left">
+					<h3>| RM</h3>
+					<p>&nbsp;생일: 1994년 9월 12일</p>
+				</span>
+				<span class="right">
+					<h3>진 |</h3>
+					<p>생일: 1992년 12월 4일&nbsp;</p>
+				</span>
+			</td>
 			<td>
 				<img src="img/profile/member-jin.jpg" width="100%">
 			</td>
@@ -101,7 +126,16 @@
 			<td>
 				<img src="img/profile/member-suga.jpg" width="100%">
 			</td>
-			<td></td>
+			<td>
+				<span class="left">
+					<h3>| 슈가</h3>
+					<p>&nbsp;생일: 1993년 3월 9일</p>
+				</span>
+				<span class="right">
+					<h3>제이홉 |</h3>
+					<p>생일: 1994년 2월 18일&nbsp;</p>
+				</span>
+			</td>
 			<td>
 				<img src="img/profile/member-jhope.jpg" width="100%">
 			</td>
@@ -110,14 +144,28 @@
 			</td>
 		</tr>
 		<tr>
-			<td></td>
+			<td>
+				<span class="right">
+					<h3>뷔 |</h3>
+					<p>생일: 1995년 12월 30일&nbsp;</p>
+				</span>
+			</td>
 			<td>
 				<img src="img/profile/member-v.jpg" width="100%">
 			</td>
 			<td>
 				<img src="img/profile/member-jk.jpg" width="100%">
 			</td>
-			<td></td>
+			<td>
+				<span class="right">
+					<h3>지민 |</h3>
+					<p>생일: 1995년 10월 13일&nbsp;</p>
+				</span>
+				<span class="left">
+					<h3>| 정국</h3>
+					<p>&nbsp;생일: 1997년 9월 1일</p>
+				</span>
+			</td>
 		</tr>
 	</table>
 	<br><br><br><br><br><br><br><br><br><br>

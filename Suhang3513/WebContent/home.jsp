@@ -23,7 +23,8 @@
 		position: absolute;
 		right: 0;
 		z-index: 1;
-		vertical-align: middle;
+		margin-top: 5%;
+		margin-right: 11%;
 	}
 	.persona_font{
 		position: relative;
