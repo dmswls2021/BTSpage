@@ -14,77 +14,7 @@
 	int last_day = tDay.getActualMaximum(Calendar.DATE);
 %>
 <head>
-	<style>
-		.schedule {
-		  font-family: HangeulNuri-Bold;
-		  text-align: center;
-		}
-		.schedule table {
-			position: absolute;
-		  	width: 95%;
-		  	border: 0px;
-		}
-		.schedule table tr {
-		  padding: 0;
-		  margin: 0;
-		  width: 100%;
-		}
-		.schedule table td {
-		  float: left;
-		  width: 14.285%;
-		  padding: 5px;
-		  box-sizing: border-box;
-		  margin-right: -1px;
-		  margin-bottom: -1px;
-		}
-		.schedule table tr.weekdays {
-		  height: 40px;
-		  background : rgba(255,255,255,0.3);
-		}
-		.schedule table tr.weekdays td {
-		  text-align: center;
-		  text-transform: uppercase;
-		  line-height: 20px;
-		  border: none !important;
-		  padding: 10px 6px;
-		  color: #ccc;
-		  font-size: 13px;
-		}
-		.schedule table .days td {
-		  height: 130px;
-		  color: white;
-		  text-align: right;
-		}
-		.schedule table .days td:hover {
-		  background: #d3d3d3;
-		}
-		.schedule table .date {
-		  text-align: center;
-		  margin-bottom: 5px;
-		  padding: 4px;
-		  background: #333;
-		  color: #fff;
-		  width: 20px;
-		  border-radius: 50%;
-		  float: right;
-		}
-		.schedule table .event {
-		  clear: both;
-		  display: block;
-		  font-size: 13px;
-		  padding: 5px;
-		  margin-top: 40px;
-		  margin-bottom: 5px;
-		  line-height: 14px;
-		  color: #009aaf;
-		  text-decoration: none;
-		}
-		.schedule talbe .event-desc {
-		  color: #666;
-		  margin: 3px 0 7px 0;
-		  text-decoration: none;
-		}
-	</style>
+<link rel="stylesheet" type="text/css" href='css/schedule.css'/>
 </head>
  <body bgcolor="black">
  <div class="schedule">
